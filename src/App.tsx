@@ -213,8 +213,8 @@ function App() {
             <div className="bg-green-600 p-8 rounded-lg mb-12 transform hover:scale-105 transition-all duration-300 shadow-2xl">
               <Phone className="h-12 w-12 text-white mx-auto mb-4" />
               <h4 className="text-2xl font-bold text-white mb-2">WhatsApp</h4>
-              <p className="text-3xl font-bold text-white mb-2">(11) 99999-9999</p>
-              <p className="text-green-100 mb-4">Atendimento imediato • Disponível 24h para emergências</p>
+              <p className="text-3xl font-bold text-white mb-2">(93) 99224-1438</p>
+              <p className="text-green-100 mb-4">Atendimento imediato</p>
               <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg">
                 Chamar no WhatsApp
               </button>
@@ -225,15 +225,15 @@ function App() {
               <div className="bg-gray-700 p-6 rounded-lg hover:bg-gray-600 transition-colors">
                 <Mail className="h-8 w-8 text-[#FFD700] mx-auto mb-4" />
                 <h5 className="text-white font-semibold text-lg mb-2">E-mail</h5>
-                <p className="text-white font-medium mb-1">contato@joaosilvaadvocacia.com.br</p>
-                <p className="text-gray-400 text-sm">Resposta em até 24h</p>
+                <p className="text-white font-medium mb-1">advsalviosilva@gmail.com</p>
+                <p className="text-gray-400 text-sm">Atendimento Rápido</p>
               </div>
               
               <div className="bg-gray-700 p-6 rounded-lg hover:bg-gray-600 transition-colors">
                 <MapPin className="h-8 w-8 text-[#FFD700] mx-auto mb-4" />
                 <h5 className="text-white font-semibold text-lg mb-2">Escritório</h5>
                 <p className="text-white font-medium mb-1">Av. Paulista, 1000</p>
-                <p className="text-gray-400 text-sm">São Paulo/SP - Próximo ao metrô</p>
+                <p className="text-gray-400 text-sm">Santarém - PA</p>
               </div>
               
               <div className="bg-gray-700 p-6 rounded-lg hover:bg-gray-600 transition-colors">
