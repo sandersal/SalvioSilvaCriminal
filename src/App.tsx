@@ -80,9 +80,7 @@ function App() {
                 <span className="block text-[#00348f] text-xl font-normal mt-2">OAB/SP 123.456</span>
               </h3>
               <p className="text-gray-600 text-lg mb-6 leading-relaxed">
-                Advogado especialista em direito criminal com mais de 15 anos de experiência, 
-                formado pela Universidade de São Paulo (USP) e pós-graduado em Ciências Criminais 
-                pela PUC-SP.
+                Advogado especialista em direito penal comprometido com a defesa técnica de qualidade. Formação sólida e dedicação integral aos casos, sempre buscando as melhores estratégias jurídicas para proteger os direitos dos clientes.
               </p>
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center space-x-3">
