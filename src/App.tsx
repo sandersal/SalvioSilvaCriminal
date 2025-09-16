@@ -255,7 +255,7 @@ function App() {
               <div className="flex items-center space-x-2 mb-4">
                 <Scale className="h-8 w-8 text-[#FFD700]" />
                 <div>
-                  <h4 className="text-xl font-bold">Dr. João Silva</h4>
+                  <h4 className="text-xl font-bold">Dr. Salvio Silva</h4>
                   <p className="text-gray-400">Advocacia Criminal</p>
                 </div>
               </div>
