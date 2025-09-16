@@ -1,13 +1,298 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Salvio Silva - Advocacia Criminal</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="/Logo_Salvio-Silva-Advogado - Blue H.webp" alt="Dr. Salvio Silva - Advocacia Criminal">
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#services">Serviços</a>
+                    <a href="#contact">Contato</a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#home">Início</a>
+                <a href="#about">Sobre</a>
+                <a href="#services">Serviços</a>
+                <a href="#contact">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Defesa Criminal
+                    <span class="hero-subtitle">Especializada</span>
+                </h1>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Entre em contato</button>
+                    <button class="btn btn-secondary">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2 class="about-title">
+                        Dr. Salvio Silva
+                        <span class="about-oab">OAB/PA 39.968</span>
+                    </h2>
+                    <p class="about-description">
+                        Advogado especialista em direito penal comprometido com a defesa técnica de qualidade. 
+                        Formação sólida e dedicação integral aos casos, sempre buscando as melhores estratégias 
+                        jurídicas para proteger os direitos dos clientes.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon">🏆</div>
+                            <span>Formação & Especialização</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">👥</div>
+                            <span>100+ Clientes</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">💼</div>
+                            <span>100+ Casos</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">✅</div>
+                            <span>98% Sucesso</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg" 
+                         alt="Formação e Especialização Dr. Salvio Silva">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services-header">
+                <h2 class="services-title">Áreas de Atuação</h2>
+                <p class="services-description">
+                    Especializado em todas as esferas do direito criminal, oferecendo defesa técnica de excelência.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">⚠️</div>
+                    <h3 class="service-title">Defesa Criminal em Flagrante</h3>
+                    <p class="service-description">Atendimento imediato para situações de flagrante delito</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏢</div>
+                    <h3 class="service-title">Acompanhamento em Delegacias</h3>
+                    <p class="service-description">Assistência jurídica durante depoimentos e investigações</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🛡️</div>
+                    <h3 class="service-title">Lei Maria da Penha</h3>
+                    <p class="service-description">Defesa especializada em casos de violência doméstica</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3 class="service-title">Crimes Contra a Honra</h3>
+                    <p class="service-description">Defesa em casos de calúnia, difamação e injúria</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👥</div>
+                    <h3 class="service-title">Homicídio e Lesão Corporal</h3>
+                    <p class="service-description">Defesa técnica em crimes contra a vida</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3 class="service-title">Violência Doméstica</h3>
+                    <p class="service-description">Acompanhamento jurídico especializado</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📄</div>
+                    <h3 class="service-title">Medidas Protetivas</h3>
+                    <p class="service-description">Orientação e defesa em processos de medidas protetivas</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚖️</div>
+                    <h3 class="service-title">Habeas Corpus</h3>
+                    <p class="service-description">Impetração de habeas corpus preventivo e liberatório</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🏆</div>
+                    <h3 class="service-title">Recursos Criminais</h3>
+                    <p class="service-description">Interposição de recursos em todas as instâncias</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3 class="service-title">Prisão Preventiva</h3>
+                    <p class="service-description">Defesa contra decretação de prisão preventiva</p>
+                    <div class="service-line"></div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🚗</div>
+                    <h3 class="service-title">Crimes de Trânsito</h3>
+                    <p class="service-description">Defesa em acidentes, embriaguez ao volante e infrações graves</p>
+                    <div class="service-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Precisa de Assistência Jurídica Criminal?</h2>
+                <p class="cta-description">
+                    Entre em contato para uma consulta gratuita e saiba como podemos defender seus direitos.
+                </p>
+                <button class="btn btn-primary">ENTRE EM CONTATO</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="contact-title">Entre em Contato</h2>
+                <p class="contact-description">
+                    Estamos prontos para atendê-lo com a excelência que seu caso merece. 
+                    Entre em contato conosco para agendar sua consulta.
+                </p>
+                
+                <!-- WhatsApp CTA destacado -->
+                <div class="whatsapp-cta">
+                    <div class="whatsapp-icon">📱</div>
+                    <h3 class="whatsapp-title">WhatsApp</h3>
+                    <p class="whatsapp-number">(93) 99224-1438</p>
+                    <p class="whatsapp-subtitle">Atendimento imediato</p>
+                    <button class="btn btn-whatsapp">Chamar no WhatsApp</button>
+                </div>
+                
+                <!-- Outros contatos -->
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <h4 class="contact-card-title">E-mail</h4>
+                        <p class="contact-info">advsalviosilva@gmail.com</p>
+                        <p class="contact-subtitle">Atendimento Rápido</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">📍</div>
+                        <h4 class="contact-card-title">Escritório</h4>
+                        <p class="contact-info">Rua 15 de Agosto, 521 - Bairro Santa Clara</p>
+                        <p class="contact-subtitle">Santarém - PA, CEP 68005-394</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">🕒</div>
+                        <h4 class="contact-card-title">Horário</h4>
+                        <p class="contact-info">Seg-Sex: 8h às 18h</p>
+                        <p class="contact-subtitle">Emergências 24h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="/Logo_Salvio-Silva-Advogado - Blue H.webp" 
+                         alt="Dr. Salvio Silva - Advocacia Criminal" 
+                         class="footer-logo">
+                    <p class="footer-description">
+                        Advogado especialista em direito penal comprometido com a defesa técnica de qualidade. 
+                        Formação sólida e dedicação integral aos casos, sempre buscando as melhores estratégias 
+                        jurídicas para proteger os direitos dos clientes.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title">Links Rápidos</h4>
+                    <ul class="footer-list">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-legal">
+                    <h4 class="footer-title">Informações Legais</h4>
+                    <p class="footer-info">OAB/PA 39.968</p>
+                    <p class="footer-info">Advogado Criminalista Santarém - PA</p>
+                    <p class="footer-disclaimer">
+                        Este site segue as diretrizes do Código de Ética e Disciplina da OAB.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2025 Dr. Salvio Silva - Advocacia Criminal. Todos os direitos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
