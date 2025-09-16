@@ -51,8 +51,7 @@ function App() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="relative bg-gradient-to-br from-[#00348f] to-gray-900 text-white py-20">
-        <div className="absolute inset-0 bg-black opacity-50"></div>
+      <section id="home" className="relative bg-[#002758] text-white py-20">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
