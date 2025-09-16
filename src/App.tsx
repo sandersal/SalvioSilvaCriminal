@@ -255,10 +255,6 @@ function App() {
                   className="h-10 w-auto"
                 />
               </div>
-              <p className="text-gray-400 mb-4">
-                Advogado criminalista com mais de 15 anos de experiência, 
-                comprometido com a defesa dos direitos de nossos clientes.
-              </p>
             </div>
             
             <div>
