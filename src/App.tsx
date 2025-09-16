@@ -269,8 +269,8 @@ function App() {
             
             <div>
               <h5 className="text-lg font-semibold mb-4">Informações Legais</h5>
-              <p className="text-gray-400 text-sm mb-2">OAB/PA 123.456</p>
-              <p className="text-gray-400 text-sm mb-2">CNPJ: 00.000.000/0001-00</p>
+              <p className="text-gray-400 text-sm mb-2">OAB/PA 39.968</p>
+              <p className="text-gray-400 text-sm mb-2">Advogado Criminalista Santarém - PA</p>
               <p className="text-gray-400 text-sm">
                 Este site segue as diretrizes do Código de Ética e Disciplina da OAB.
               </p>
