@@ -105,7 +105,7 @@ function App() {
               <img 
                 src="https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=800" 
                 alt="Formação e Especialização Dr. Salvio Silva" 
-                className="w-512 h-320 object-cover rounded-lg"
+                className="w-full h-full object-cover rounded-lg"
               />
             </div>
           </div>
