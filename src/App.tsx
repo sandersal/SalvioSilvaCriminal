@@ -54,7 +54,7 @@ function App() {
       <section id="home" className="relative bg-[#002758] text-white py-20">
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-4xl md:text-6xl font-bold mb-2 leading-tight">
+            <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
               Defesa Criminal
               <span className="block text-[#FFD700]">Especializada</span>
             </h2>
