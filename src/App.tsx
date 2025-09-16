@@ -17,10 +17,6 @@ function App() {
                 alt="Dr. Salvio Silva - Advocacia Criminal" 
                 className="h-12 w-auto"
               />
-              <div>
-                <h1 className="text-xl font-bold text-gray-900">Dr. Salvio Silva</h1>
-                <p className="text-sm text-gray-600">Advocacia Criminal</p>
-              </div>
             </div>
 
             {/* Desktop Navigation */}
