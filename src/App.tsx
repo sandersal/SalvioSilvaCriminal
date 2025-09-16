@@ -85,7 +85,7 @@ function App() {
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center space-x-3">
                   <Award className="h-6 w-6 text-[#FFD700]" />
-                  <span className="text-gray-700">Licenciado</span>
+                  <span className="text-gray-700">Formação & Especialização</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Users className="h-6 w-6 text-[#FFD700]" />
