@@ -228,8 +228,8 @@ function App() {
               <div className="bg-gray-700 p-6 rounded-lg hover:bg-gray-600 transition-colors">
                 <MapPin className="h-8 w-8 text-[#FFD700] mx-auto mb-4" />
                 <h5 className="text-white font-semibold text-lg mb-2">Escritório</h5>
-                <p className="text-white font-medium mb-1">Av. Paulista, 1000</p>
-                <p className="text-gray-400 text-sm">Santarém - PA</p>
+                <p className="text-white font-medium mb-1">Rua 15 de Agosto, 521 - Bairro Santa Clara</p>
+                <p className="text-gray-400 text-sm">Santarém - PA, CEP 68005-394</p>
               </div>
               
               <div className="bg-gray-700 p-6 rounded-lg hover:bg-gray-600 transition-colors">
