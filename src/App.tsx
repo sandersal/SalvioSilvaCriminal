@@ -261,13 +261,13 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
+              <div className="mb-4">
                 <img 
                   src="/Logo_Salvio-Silva-Advogado - Blue H.webp" 
                   alt="Dr. Salvio Silva - Advocacia Criminal" 
-                  className="h-10 w-auto"
+                  className="h-10 w-auto mb-3"
                 />
-                <p className="text-gray-600 text-lg mb-3 leading-relaxed">
+                <p className="text-gray-400 text-sm leading-relaxed">
                 Advogado especialista em direito penal comprometido com a defesa técnica de qualidade. Formação sólida e dedicação integral aos casos, sempre buscando as melhores estratégias jurídicas para proteger os direitos dos clientes.
               </p>
               </div>
