@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Menu, X, Scale, Shield, FileText, Phone, Mail, MapPin, Clock, Award, Users, Briefcase, CheckCircle } from 'lucide-react';
+import { Menu, X, Scale, Shield, FileText, Phone, Mail, MapPin, Clock, Award, Users, Briefcase, CheckCircle, AlertTriangle, Building, MessageSquare, Home, Lock, Car } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -137,34 +137,59 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                icon: AlertTriangle,
+                title: "Defesa Criminal em Flagrante",
+                description: "Atendimento imediato para situações de flagrante delito"
+              },
+              {
+                icon: Building,
+                title: "Acompanhamento em Delegacias",
+                description: "Assistência jurídica durante depoimentos e investigações"
+              },
+              {
                 icon: Shield,
-                title: "Crimes Contra a Vida",
-                description: "Defesa em casos de homicídio, lesão corporal, aborto e outros crimes contra a vida."
+                title: "Lei Maria da Penha",
+                description: "Defesa especializada em casos de violência doméstica"
               },
               {
-                icon: FileText,
-                title: "Crimes Patrimoniais",
-                description: "Furto, roubo, estelionato, apropriação indébita e demais crimes contra o patrimônio."
-              },
-              {
-                icon: Scale,
-                title: "Crimes Tributários",
-                description: "Sonegação fiscal, crimes contra a ordem tributária e regularização fiscal."
+                icon: MessageSquare,
+                title: "Crimes Contra a Honra",
+                description: "Defesa em casos de calúnia, difamação e injúria"
               },
               {
                 icon: Users,
-                title: "Crimes de Trânsito",
-                description: "Homicídio culposo, lesão corporal culposa, embriaguez ao volante e habilitação cassada."
+                title: "Homicídio e Lesão Corporal",
+                description: "Defesa técnica em crimes contra a vida"
               },
               {
-                icon: Briefcase,
-                title: "Crimes Econômicos",
-                description: "Lavagem de dinheiro, crimes do sistema financeiro e contra a economia popular."
+                icon: Home,
+                title: "Violência Doméstica",
+                description: "Acompanhamento jurídico especializado"
+              },
+              {
+                icon: FileText,
+                title: "Medidas Protetivas",
+                description: "Orientação e defesa em processos de medidas protetivas"
+              },
+              {
+                icon: Scale,
+                title: "Habeas Corpus",
+                description: "Impetração de habeas corpus preventivo e liberatório"
               },
               {
                 icon: Award,
-                title: "Recursos e Habeas Corpus",
-                description: "Interposição de recursos em todas as instâncias e impetração de habeas corpus."
+                title: "Recursos Criminais",
+                description: "Interposição de recursos em todas as instâncias"
+              },
+              {
+                icon: Lock,
+                title: "Prisão Preventiva",
+                description: "Defesa contra decretação de prisão preventiva"
+              },
+              {
+                icon: Car,
+                title: "Crimes de Trânsito",
+                description: "Defesa em acidentes, embriaguez ao volante e infrações graves"
               }
             ].map((service, index) => (
               <div key={index} className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
