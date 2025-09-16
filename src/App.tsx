@@ -103,7 +103,7 @@ function App() {
             </div>
             <div className="bg-gray-800 p-8 rounded-lg">
               <img 
-                src="https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                src="https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg" 
                 alt="Formação e Especialização Dr. Salvio Silva" 
                 className="w-full h-full object-cover rounded-lg"
               />
