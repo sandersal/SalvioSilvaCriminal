@@ -85,19 +85,19 @@ function App() {
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="flex items-center space-x-3">
                   <Award className="h-6 w-6 text-[#FFD700]" />
-                  <span className="text-gray-700">15+ Anos</span>
+                  <span className="text-gray-700">Licenciado</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Users className="h-6 w-6 text-[#FFD700]" />
-                  <span className="text-gray-700">500+ Clientes</span>
+                  <span className="text-gray-700">100+ Clientes</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Briefcase className="h-6 w-6 text-[#FFD700]" />
-                  <span className="text-gray-700">1000+ Casos</span>
+                  <span className="text-gray-700">100+ Casos</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-6 w-6 text-[#FFD700]" />
-                  <span className="text-gray-700">95% Sucesso</span>
+                  <span className="text-gray-700">98% Sucesso</span>
                 </div>
               </div>
             </div>
