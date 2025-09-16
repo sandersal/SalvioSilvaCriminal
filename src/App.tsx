@@ -77,7 +77,7 @@ function App() {
             <div>
               <h3 className="text-3xl font-bold text-gray-900 mb-6">
                 Dr. Salvio Silva
-                <span className="block text-[#00348f] text-xl font-normal mt-2">OAB/SP 123.456</span>
+                <span className="block text-[#00348f] text-xl font-normal mt-2">OAB/PA 39.968</span>
               </h3>
               <p className="text-gray-600 text-lg mb-6 leading-relaxed">
                 Advogado especialista em direito penal comprometido com a defesa técnica de qualidade. Formação sólida e dedicação integral aos casos, sempre buscando as melhores estratégias jurídicas para proteger os direitos dos clientes.
