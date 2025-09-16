@@ -194,7 +194,7 @@ function App() {
             Entre em contato para uma consulta gratuita e saiba como podemos defender seus direitos.
           </p>
           <button className="bg-[#FFD700] text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Agendar Consulta Gratuita
+            ENTRE EM CONTATO
           </button>
         </div>
       </section>
