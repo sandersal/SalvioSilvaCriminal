@@ -58,9 +58,6 @@ function App() {
               Defesa Criminal
               <span className="block text-[#FFD700]">Especializada</span>
             </h2>
-            <p className="text-xl md:text-2xl mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Mais de 15 anos de experiência em direito criminal, oferecendo defesa técnica qualificada e comprometida com a justiça.
-            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-[#FFD700] text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-yellow-400 transition-all duration-300 transform hover:scale-105 shadow-lg">
                 Entre em contato
