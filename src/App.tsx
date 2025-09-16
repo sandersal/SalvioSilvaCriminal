@@ -267,7 +267,7 @@ function App() {
                   alt="Dr. Salvio Silva - Advocacia Criminal" 
                   className="h-10 w-auto"
                 />
-                <p className="text-gray-600 text-lg mb-6 leading-relaxed">
+                <p className="text-gray-600 text-lg mb-3 leading-relaxed">
                 Advogado especialista em direito penal comprometido com a defesa técnica de qualidade. Formação sólida e dedicação integral aos casos, sempre buscando as melhores estratégias jurídicas para proteger os direitos dos clientes.
               </p>
               </div>
