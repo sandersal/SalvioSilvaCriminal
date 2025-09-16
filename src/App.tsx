@@ -12,7 +12,11 @@ function App() {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <Scale className="h-8 w-8 text-[#00348f]" />
+              <img 
+                src="/Logo_Salvio-Silva-Advogado - Blue H.webp" 
+                alt="Dr. Salvio Silva - Advocacia Criminal" 
+                className="h-12 w-auto"
+              />
               <div>
                 <h1 className="text-xl font-bold text-gray-900">Dr. Salvio Silva</h1>
                 <p className="text-sm text-gray-600">Advocacia Criminal</p>
@@ -249,7 +253,11 @@ function App() {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <Scale className="h-8 w-8 text-[#FFD700]" />
+                <img 
+                  src="/Logo_Salvio-Silva-Advogado - Blue H.webp" 
+                  alt="Dr. Salvio Silva - Advocacia Criminal" 
+                  className="h-10 w-auto"
+                />
                 <div>
                   <h4 className="text-xl font-bold">Dr. Salvio Silva</h4>
                   <p className="text-gray-400">Advocacia Criminal</p>
