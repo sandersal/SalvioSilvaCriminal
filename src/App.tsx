@@ -254,10 +254,6 @@ function App() {
                   alt="Dr. Salvio Silva - Advocacia Criminal" 
                   className="h-10 w-auto"
                 />
-                <div>
-                  <h4 className="text-xl font-bold">Dr. Salvio Silva</h4>
-                  <p className="text-gray-400">Advocacia Criminal</p>
-                </div>
               </div>
               <p className="text-gray-400 mb-4">
                 Advogado criminalista com mais de 15 anos de experiência, 
