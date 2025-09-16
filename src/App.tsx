@@ -102,21 +102,11 @@ function App() {
               </div>
             </div>
             <div className="bg-gray-800 p-8 rounded-lg">
-              <h4 className="text-2xl font-bold text-white mb-6">Formação & Especialização</h4>
-              <div className="space-y-4">
-                <div className="border-l-4 border-[#FFD700] pl-4">
-                  <h5 className="text-[#FFD700] font-semibold">Graduação</h5>
-                  <p className="text-gray-300">Direito - Universidade de São Paulo (USP)</p>
-                </div>
-                <div className="border-l-4 border-[#FFD700] pl-4">
-                  <h5 className="text-[#FFD700] font-semibold">Pós-Graduação</h5>
-                  <p className="text-gray-300">Ciências Criminais - PUC-SP</p>
-                </div>
-                <div className="border-l-4 border-[#FFD700] pl-4">
-                  <h5 className="text-[#FFD700] font-semibold">Especialização</h5>
-                  <p className="text-gray-300">Direito Penal e Processual Penal</p>
-                </div>
-              </div>
+              <img 
+                src="https://images.pexels.com/photos/5668882/pexels-photo-5668882.jpeg?auto=compress&cs=tinysrgb&w=800" 
+                alt="Formação e Especialização Dr. Salvio Silva" 
+                className="w-full h-full object-cover rounded-lg"
+              />
             </div>
           </div>
         </div>
