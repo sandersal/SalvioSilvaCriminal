@@ -4,14 +4,20 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileNav = document.getElementById('mobileNav');
     
     mobileMenuBtn.addEventListener('click', function() {
-        mobileNav.classList.toggle('active');
+        mobileNav.classList.toggle('hidden');
+        mobileNav.classList.toggle('flex');
         
         // Animate hamburger menu
         const hamburgers = mobileMenuBtn.querySelectorAll('.hamburger');
-        hamburgers.forEach(hamburger => {
-            hamburger.style.transform = mobileNav.classList.contains('active') 
-                ? 'rotate(45deg)' 
-                : 'rotate(0deg)';
+        hamburgers.forEach((hamburger, index) => {
+            if (mobileNav.classList.contains('flex')) {
+                if (index === 0) hamburger.style.transform = 'rotate(45deg) translate(6px, 6px)';
+                if (index === 1) hamburger.style.opacity = '0';
+                if (index === 2) hamburger.style.transform = 'rotate(-45deg) translate(6px, -6px)';
+            } else {
+                hamburger.style.transform = 'rotate(0deg) translate(0px, 0px)';
+                hamburger.style.opacity = '1';
+            }
         });
     });
     
@@ -19,10 +25,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileLinks = mobileNav.querySelectorAll('a');
     mobileLinks.forEach(link => {
         link.addEventListener('click', function() {
-            mobileNav.classList.remove('active');
+            mobileNav.classList.add('hidden');
+            mobileNav.classList.remove('flex');
             const hamburgers = mobileMenuBtn.querySelectorAll('.hamburger');
             hamburgers.forEach(hamburger => {
-                hamburger.style.transform = 'rotate(0deg)';
+                hamburger.style.transform = 'rotate(0deg) translate(0px, 0px)';
+                hamburger.style.opacity = '1';
             });
         });
     });
@@ -34,7 +42,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            const headerHeight = document.querySelector('.header').offsetHeight;
+            const headerHeight = document.querySelector('header').offsetHeight;
             const targetPosition = target.offsetTop - headerHeight;
             
             window.scrollTo({
@@ -47,13 +55,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 // Header Background Change on Scroll
 window.addEventListener('scroll', function() {
-    const header = document.querySelector('.header');
+    const header = document.getElementById('header');
     if (window.scrollY > 100) {
-        header.style.background = 'rgba(255, 255, 255, 0.95)';
-        header.style.backdropFilter = 'blur(10px)';
+        header.classList.add('bg-white/95', 'backdrop-blur-sm');
+        header.classList.remove('bg-white');
     } else {
-        header.style.background = 'white';
-        header.style.backdropFilter = 'none';
+        header.classList.add('bg-white');
+        header.classList.remove('bg-white/95', 'backdrop-blur-sm');
     }
 });
 
@@ -77,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
             btn.addEventListener('click', function() {
                 const contactSection = document.getElementById('contact');
                 if (contactSection) {
-                    const headerHeight = document.querySelector('.header').offsetHeight;
+                    const headerHeight = document.querySelector('header').offsetHeight;
                     const targetPosition = contactSection.offsetTop - headerHeight;
                     
                     window.scrollTo({
@@ -99,8 +107,8 @@ function animateOnScroll() {
         const elementVisible = 150;
         
         if (elementTop < window.innerHeight - elementVisible) {
-            element.style.opacity = '1';
-            element.style.transform = 'translateY(0)';
+            element.classList.remove('opacity-0', 'translate-y-5');
+            element.classList.add('opacity-100', 'translate-y-0');
         }
     });
 }
@@ -109,9 +117,7 @@ function animateOnScroll() {
 document.addEventListener('DOMContentLoaded', function() {
     const elements = document.querySelectorAll('.service-card, .contact-card, .stat-item');
     elements.forEach(element => {
-        element.style.opacity = '0';
-        element.style.transform = 'translateY(20px)';
-        element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        element.classList.add('opacity-0', 'translate-y-5', 'transition-all', 'duration-700');
     });
     
     window.addEventListener('scroll', animateOnScroll);
